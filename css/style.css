@@ -406,19 +406,7 @@ p{
 		background-position: 0 10%;
     	background-size: 145%;
 	}
-	#header:after{
-		content:'';
-		width: 100%;
-		height: 100%;
-		display: block;
-		position: absolute;
-		z-index: 1;
-		top: 0;
-		background: linear-gradient(90deg, rgba(0, 0, 0, 0.4)20%, rgba(255, 255, 255, 0)80%); 
-		background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0.4)20%, rgba(255, 255, 255, 0)80%); 
-		background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.4)20%, rgba(255, 255, 255, 0)80%); 
-		background: -o-linear-gradient(90deg, rgba(0, 0, 0, 0.4)20%, rgba(255, 255, 255, 0)80%); 
-	}
+	
 	#header .app-logo,#header .w-block{
 		position: relative;
 		z-index: 2;
