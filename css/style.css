@@ -48,7 +48,8 @@ p{
 .w-block{
 	padding:20px;
 	margin:auto;
-	text-align:center;}
+	text-align:center;
+}
 .clear:after{
     content: '';
     display: block;
@@ -328,6 +329,7 @@ p{
 	}
 	#header .w-block {
 	    width: 550px;
+	    background: rgba(0,0,0,.25);
 	}
 	#piece2.piece {
 	    height: 300px;
@@ -421,7 +423,7 @@ p{
 		position: relative;
 		z-index: 2;
 	}
-	#header .w-block{background: initial;}
+	#header .w-block{background: rgba(0,0,0,.25);}
 	#piece1 div.mobile{
 		background: url(../images/pubu_cover_m.jpg) center;
 		background-size: contain;
@@ -513,7 +515,9 @@ p{
 		height: 270px;
 		background-size: 160%;
 	}
-	#header .w-block {padding: 0;	}
+	#header .w-block {
+		padding: 0;
+	background: rgba(0,0,0,.25);	}
 	#header h1 {
 	    font-size: 1.5em;
 	    line-height: 1em;
