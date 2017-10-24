@@ -112,7 +112,13 @@ piece3
 
 @media screen and (max-width: 1400px) {}
 
-@media screen and (max-width: 1025px) {}
+@media screen and (max-width: 1025px) {
+   .positionheader {
+  margin-top: 20vh; 
+  margin-bottom: -70vh;
+
+}
+}
 
 @media screen and (max-width: 950px) {
   .positionheader {
