@@ -11,6 +11,8 @@
   <link rel="apple-touch-icon" href="images/pubu-app-logo.png">
   <!-- SMART BANNER FOR ANDROID -->
   <meta name="google-play-app" content="app-id=com.nuazure.bookbuffet">
+  <link rel="stylesheet" type="text/css" href="js/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css">
   <link rel="stylesheet" href="feature/smart-app-banner.css" type="text/css" media="screen">
   <link rel="android-touch-icon" href="images/pubu-app-logo.png" />
   <!-- CHANGES END -->
@@ -229,7 +231,12 @@ RM 10 / per month</p>
   <script src="js/owl.carousel.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
-      carousel()
+     $("#showcase").slick({
+        infinite: true,
+        variableWidth: true,
+        autoplay: true,
+        autoplaySpeed: 500,
+      });
       $("#owl-one").owlCarousel({
         navigation: false,
         slideSpeed: 300,
@@ -300,6 +307,7 @@ RM 10 / per month</p>
   <script src="feature/jquery.reflection.js"></script>
   <script src="feature/jquery.cloud9carousel.js"></script>
   <script src="feature/carousel.js"></script>
+   <script src="js/slick/slick.js" type="text/javascript" charset="utf-8"></script>
   <!-- CHANGES END -->
 
 </body>

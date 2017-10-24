@@ -99,6 +99,11 @@ piece3
   font-size: 1.6em;
   font-weight: bold;
 }
+
+.slick-slide
+{
+width: 200px;
+}
 =============================================================================
 piece3
 ============================================================================= */
@@ -119,7 +124,11 @@ piece3
 
 @media screen and (max-width: 850px) {}
 
-@media screen and (max-width: 767px) {}
+@media screen and (max-width: 767px) {
+  #piece1 div.mobile {
+    padding-bottom: 10px;
+  }
+}
 
 @media screen and (max-width: 640px) {
 
@@ -130,6 +139,16 @@ piece3
 }
 }
 
-@media screen and (max-width: 460px) {}
+@media screen and (max-width: 460px) {
+   .slick-slide
+{
+width: 150px;
+}
+}
 
-@media screen and (max-width: 360px) {}
+@media screen and (max-width: 360px) {
+  .slick-slide
+{
+width: 100px;
+}
+}
