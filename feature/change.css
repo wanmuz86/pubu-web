@@ -11,7 +11,7 @@ pieces1
   background: transparent;
   width: 100%;
   padding-top: 10px;
-  width: 100% !important;
+  
 }
 
 #nav {
@@ -79,6 +79,8 @@ piece3
   padding-bottom: 56.25%; /* 16:9 */
   padding-top: 25px;
   height: 0;
+  width: 80%;
+  margin: 0px auto;
 }
 .videoWrapper iframe {
   position: absolute;
@@ -102,8 +104,8 @@ piece3
 
 .slick-slide 
 {
-width: 200px;
-height: 230px;
+
+height: 300px;
 }
 
 =============================================================================
@@ -138,6 +140,11 @@ piece3
   .piece2 .w-block {
   margin-top: 100px;
 }
+
+.videoWrapper {
+    width: 100%;
+
+}
 }
 
 @media screen and (max-width: 767px) {
@@ -161,16 +168,27 @@ piece3
 @media screen and (max-width: 460px) {
    .slick-slide
 {
-width: 150px;
+
 height: 180px;
+}
+ .cloud9-item
+{
+width: auto !important;
+height: 180px
 }
 }
 
 @media screen and (max-width: 360px) {
   .slick-slide
 {
-width: 100px;
-height: 120px
+
+height: 150px
+}
+ .cloud9-item
+{
+
+width: auto !important;
+height: 150px
 }
 .piece2 .w-block {
   margin-top: 100px;
